@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./estilos/font.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <title>Festival-entrega</title>
+</head>
+
+<body>
+    <header id="inicio">
+        <nav>
+            <div class="nav-conteiner">
+                <div class="nav-logo">
+                    <img src="data:image/png;base64,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"
+                        alt="Logo">
+                </div>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#campeones">Campeones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><button><a href="#">Registrate</a></button></li>
+                </ul>
+            </div>
+        </nav>
+        <img class="img-header" src="./estilos/img-header.png" alt="imagen de fondo">
+    </header>
+    <main>
+        <section class="nosotros" id="historia">
+            <div class="card-nosotros">
+                <h1>Historia</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam excepturi deserunt illum blanditiis eaque officia, vel nostrum earum ullam, labore iure? Ratione possimus atque amet. Autem deleniti doloremque placeat cupiditate.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus ex numquam laboriosam sunt quidem vitae excepturi, neque tempora minus. Error voluptate ipsum dignissimos tempore beatae, ipsa veniam veritatis distinctio modi?</p>
+            </div>
+        </section>
+    </main>
+    <main class="main-campeones" id="campeones">
+        <div class="campeones">
+            <div class="card-campeon">
+                <img src="./estilos/kata.jpg" alt="katarina-imagen">
+                <h1>KATARINA</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam provident tenetur maxime unde laudantium ea qui? Est veniam, minima non beatae ipsa magni facilis praesentium et illum nostrum vero numquam.</p>
+            </div>
+        </div>
+        <div class="campeones">
+            <div class="card-campeon">
+                <img src="./estilos/zed.jpg" alt="zed-imagen">
+                <h1>ZED</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam provident tenetur maxime unde laudantium ea qui? Est veniam, minima non beatae ipsa magni facilis praesentium et illum nostrum vero numquam.</p>
+            </div>
+        </div>
+        <div class="campeones">
+            <div class="card-campeon">
+                <img src="./estilos/rengar.png" alt="rengar-imagen">
+                <h1>RENGAR</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam provident tenetur maxime unde laudantium ea qui? Est veniam, minima non beatae ipsa magni facilis praesentium et illum nostrum vero numquam.</p>
+            </div>
+        </div>
+        <div class="campeones">
+            <div class="card-campeon">
+                <img src="./estilos/jinx.png" alt="jinx-imagen">
+                <h1>JINX</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam provident tenetur maxime unde laudantium ea qui? Est veniam, minima non beatae ipsa magni facilis praesentium et illum nostrum vero numquam.</p>
+            </div>
+        </div>
+    </main>
+    <section class="contacto" id="contacto">
+        <div class="div-contacto">
+            <form action="">
+                <h1>Contacto</h1>
+                <div class="div-input">
+                    <label for="name">Nombre :</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="div-input">
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="div-input textarea-div">
+                    <label for="mensaje">Mensaje :</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div class="button-enviar">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="img-footer">
+            <img class="logo-footer" src="estilos/logo-footer" alt="Logo">
+        </div>
+        <div class="social-bar">
+            <a href="https://www.facebook.com/" target="_blank"><span class="icon-facebook2 red-social"></span></a>
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank"><span class="icon-instagram red-social"></span></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><span class="icon-twitter red-social"></span></a>
+            <a href="https://youtube.com/" target="_blank"><span class="icon-youtube red-social"></span></a>
+        </div>
+        <div class="relleno">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
